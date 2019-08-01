@@ -23,10 +23,10 @@ namespace MyBrowser
             this.uri = uri;
             InitializeComponent();
 
-            var uriBarHeight = 40;
+            var uriBarHeight = txtUriBar.Height;
             panelBrowser.Width = this.Width;
             panelBrowser.Height = this.Height - uriBarHeight;
-            panelBrowser.Location = new Point(0, uriBarHeight);
+            panelBrowser.Location = new Point(0, uriBarHeight+ txtUriBar.Location.Y*2);
         }
 
         private void Browser_TitleChanged(object sender, global::CefSharp.TitleChangedEventArgs e)

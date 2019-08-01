@@ -38,17 +38,19 @@
             this.panelBrowser.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelBrowser.Location = new System.Drawing.Point(-2, 38);
+            this.panelBrowser.Location = new System.Drawing.Point(-3, 53);
+            this.panelBrowser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelBrowser.Name = "panelBrowser";
-            this.panelBrowser.Size = new System.Drawing.Size(789, 360);
+            this.panelBrowser.Size = new System.Drawing.Size(1184, 498);
             this.panelBrowser.TabIndex = 5;
             // 
             // btnGo
             // 
             this.btnGo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnGo.Location = new System.Drawing.Point(731, 12);
+            this.btnGo.Location = new System.Drawing.Point(1100, 10);
+            this.btnGo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnGo.Name = "btnGo";
-            this.btnGo.Size = new System.Drawing.Size(56, 23);
+            this.btnGo.Size = new System.Drawing.Size(84, 28);
             this.btnGo.TabIndex = 4;
             this.btnGo.Text = "go";
             this.btnGo.UseVisualStyleBackColor = true;
@@ -58,19 +60,21 @@
             // 
             this.txtUriBar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtUriBar.Location = new System.Drawing.Point(0, 12);
+            this.txtUriBar.Location = new System.Drawing.Point(10, 10);
+            this.txtUriBar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtUriBar.Name = "txtUriBar";
-            this.txtUriBar.Size = new System.Drawing.Size(711, 20);
+            this.txtUriBar.Size = new System.Drawing.Size(1082, 28);
             this.txtUriBar.TabIndex = 3;
             // 
             // FormBrowser
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(798, 398);
+            this.ClientSize = new System.Drawing.Size(1197, 551);
             this.Controls.Add(this.panelBrowser);
             this.Controls.Add(this.btnGo);
             this.Controls.Add(this.txtUriBar);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormBrowser";
             this.Text = "FormBrowser";
             this.Load += new System.EventHandler(this.FormBrowser_Load);

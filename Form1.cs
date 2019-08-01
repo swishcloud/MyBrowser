@@ -22,10 +22,6 @@ namespace MyBrowser
             Instance = this;
             InitializeComponent();
 
-            var settings = new CefSettings();
-            settings.CachePath = Directory.GetCurrentDirectory() + "/cache";
-            Cef.Initialize(settings);
-
 
         }
         public ChromiumWebBrowser AddBrowserTab(string uri)
